@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <img src="https://i.postimg.cc/HctxYMZc/logo.png" alt="Logo" class="logo">
+        <div class="content">
+            <h1>Welcome to My App</h1>
+            <p>This is a simple app with a background image.</p>
+            <button class="get-started-button">Get Started</button>
+        </div>
+        <div class="login-details" style="display: none;">
+            <h2>Login Details</h2>
+            <form id="login-form">
+                <input type="text" id="name" placeholder="Name"><br>
+                <input type="tel" id="number" placeholder="Phone Number"><br>
+                <input type="email" id="email" placeholder="Email"><br>
+                <input type="password" id="password" placeholder="Password"><br>
+                <button type="submit" id="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="template-2" style="display: none;">
+        <div class="background-2"></div>
+        <div class="success-message">
+            <h1>You are successfully logged in!</h1>
+            <button class="continue-button">Continue</button>
+        </div>
+    </div>
+
+    <div class="hospital-list-container" style="display: none;">
+        <div class="background-3"></div>
+        <ul class="hospital-list"></ul>
+    </div>
+
+    <div class="doctor-list-container" style="display: none;">
+        <div class="background-4"></div>
+        <ul class="doctor-list"></ul>
+    </div>
+
+    <div class="slot-list-container" style="display: none;">
+        <div class="background-5"></div>
+        <ul class="slot-list"></ul>
+    </div>
+
+    <div class="appointment-form" style="display: none;">
+        <div class="background-6"></div>
+        <form>
+            <h2>Book Appointment</h2>
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="tel" placeholder="Phone Number"><br>
+            <input type="datetime-local" placeholder="Appointment Date and Time"><br>
+            <button type="submit" class="confirm-appointment-button">Confirm Appointment</button>
+        </form>
+    </div>
+
+    <div class="confirmation-message" style="display: none;">
+        <div class="background-7"></div>
+        <h2>Appointment Successfully Completed</h2>
+        <p>Your appointment has been successfully booked. Thank you!</p>
+        <button class="return-button">Return</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

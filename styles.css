@@ -1,0 +1,172 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.postimg.cc/BPFy05QH/background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.background-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.postimg.cc/7bQpxs4y/background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.get-started-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+.login-details h2 {
+    color: black;
+}
+
+.login-details form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.login-details input {
+    padding: 8px;
+    margin-bottom: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.login-details button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.success-message h1 {
+    color: white;
+}
+
+.continue-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hospital-list-container, .doctor-list-container, .slot-list-container, .appointment-form, .confirmation-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.hospital-list-container .background-3 {
+    background-color: #d3ffd3; /* Light green */
+}
+
+.doctor-list-container .background-4 {
+    background-color: #d3d3ff; /* Light purple */
+}
+
+.slot-list-container .background-5 {
+    background-color: #ffffcc; /* Light yellow */
+}
+
+.appointment-form .background-6 {
+    background-color: #ffb3b3; /* Light red */
+}
+
+.confirmation-message .background-7 {
+    background-color: #b3e0ff; /* Light blue */
+}
+
+.confirmation-message {
+    text-align: center;
+}
+
+.confirmation-message p {
+    font-size: 18px;
+}
+
+.return-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
